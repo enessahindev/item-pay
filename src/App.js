@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  Box,
+  Button,
+  Container,
+  Flex,
+  Heading,
+  Spacer,
+  useColorMode,
+} from "@chakra-ui/react";
+import { FaMoon, FaSun } from "react-icons/fa";
+
+import TaxCalculator from "./components/TaxPay";
 
 function App() {
+  const { colorMode, toggleColorMode } = useColorMode();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Flex minWidth="max-content" alignItems="center" gap="2">
+        <Box p="2">
+          <Heading size="md">itempay</Heading>
+        </Box>
+        <Spacer />
+        <Button colorScheme="teal" onClick={toggleColorMode}>
+          {colorMode === "light" ? <FaMoon /> : <FaSun />}
+        </Button>
+      </Flex>
+      <Container>
+        <TaxCalculator />
+      </Container>
     </div>
   );
 }
