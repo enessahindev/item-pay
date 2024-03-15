@@ -3,7 +3,7 @@
 Bu proje, "Rise Online" adlı MMORPG oyununda düşen öğelerin (item) pay, paylaşımını düzenlemek için geliştirilmiştir. Oyuncular arasında adil ve dengeli bir pay dağıtımını sağlamak amacıyla tasarlanmıştır.
 
 ## Proje Video
-<video src="/screens/2024-03-15 22-01-50.mp4"></video>
+<video src="https://github.com/enessahindev/item-pay/blob/master/2024-03-15%2022-01-50.mp4"></video>
 
 ## Proje Screenshots
 
