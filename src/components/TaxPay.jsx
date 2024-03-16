@@ -135,6 +135,35 @@ const TaxCalculator = () => {
                 <option value="Mage Radiant Greaves (+1)">
                   Mage Radiant Greaves (+1)
                 </option>
+                <option value="Warlord Pendant">Warlord Pendant</option>
+                <option value="Blue Dragon Pendant">Blue Dragon Pendant</option>
+                <option value="Amulet Of Chaos">Amulet Of Chaos</option>
+                <option value="Divine Pendant">Divine Pendant</option>
+                <option value="Belt Of Iron Legionairre">
+                  Belt Of Iron Legionairre
+                </option>
+                <option value="Elven Belt">Elven Belt</option>
+                <option value="Belt of Battle Mage">Belt of Battle Mage</option>
+                <option value="Loma's Belt">Loma's Belt</option>
+                <option value="Cursed Belt">Cursed Belt</option>
+                <option value="Blessing Belt">Blessing Belt</option>
+                <option value="Sun Belt">Sun Belt</option>
+                <option value="Moon Belt">Moon Belt</option>
+                <option value="Belt of Anticipation">
+                  Belt of Anticipation
+                </option>
+                <option value="Belt of Repel">Belt of Repel</option>
+                <option value="Warlord Earring">Warlord Earring</option>
+                <option value="Blue Dragon Earring">Blue Dragon Earring</option>
+                <option value="Chaos Earring">Chaos Earring</option>
+                <option value="Divine Earring">Divine Earring</option>
+                <option value="Warlord Ring">Warlord Ring</option>
+                <option value="Blue Dragon Ring">Blue Dragon Ring</option>
+                <option value="Chaos Ring">Chaos Ring</option>
+                <option value="Divine Ring">Divine Ring</option>
+                <option value="Knight's Pendant">Knight's Pendant</option>
+                <option value="Brawler's Pendant">Brawler's Pendant</option>
+                <option value="Mystic Pendant">Mystic Pendant</option>
               </Select>
             </FormControl>
             <FormControl mt={2}>
